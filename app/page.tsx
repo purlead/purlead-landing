@@ -44,7 +44,7 @@ export default function HomePage() {
                                   <h1 className="text-4xl md:text-6xl font-bold mb-6">
                                               On remplit votre agenda de{" "}
                                               <span className="text-[#3B82F6]">clients qualifies</span>
-                                  </h1>h1>
+                                  </h1>
                                   <p className="text-lg text-[#94A3B8] mb-8 max-w-2xl">
                                               Purlead genere des leads en automatique pour les entreprises locales grace aux Facebook Ads et a un systeme de qualification IA.
                                   </p>
@@ -118,4 +118,4 @@ function Navigation() {
                 </div>
           </nav>
         );
-}</main>
+}
