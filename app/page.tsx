@@ -43,17 +43,17 @@ export default function HomePage() {
                         <div className="max-w-4xl mx-auto">
                                   <h1 className="text-4xl md:text-6xl font-bold mb-6">
                                               On remplit votre agenda de{" "}
-                                              <span className="text-[#3B82F6]">clients qualifies</span>span>
+                                              <span className="text-[#3B82F6]">clients qualifies</span>
                                   </h1>h1>
                                   <p className="text-lg text-[#94A3B8] mb-8 max-w-2xl">
                                               Purlead genere des leads en automatique pour les entreprises locales grace aux Facebook Ads et a un systeme de qualification IA.
-                                  </p>p>
+                                  </p>
                                   <LiquidGlassButton size="lg">
                                               Obtenir des leads maintenant
-                                  </LiquidGlassButton>LiquidGlassButton>
-                        </div>div>
-                </section>section>
-          </main>main>
+                                  </LiquidGlassButton>
+                        </div>
+                </section>
+          </main>
         );
 }
 
@@ -73,7 +73,7 @@ function Navigation() {
                         <div className="bg-[#0A0A0F]/20 backdrop-blur-md rounded-xl md:rounded-2xl shadow-lg border border-white/[0.08] h-12 sm:h-14 md:h-16 flex items-center justify-between px-4 md:px-6">
                                   <button className="cursor-pointer">
                                               <SiteLogo size="sm" />
-                                  </button>button>
+                                  </button>
                         
                                   <div className="hidden md:flex items-center gap-6">
                                     {links.map((link) => (
@@ -82,23 +82,23 @@ function Navigation() {
                                             className="relative text-sm text-[#94A3B8] hover:text-[#3B82F6] transition-colors duration-300 cursor-pointer"
                                           >
                             {link.label}
-                          </button>button>
+                          </button>
                         ))}
-                                  </div>div>
+                                  </div>
                         
                                   <div className="hidden md:block">
                                               <LiquidGlassButton size="sm">
                                                             Reserver un appel gratuit
-                                              </LiquidGlassButton>LiquidGlassButton>
-                                  </div>div>
+                                              </LiquidGlassButton>
+                                  </div>
                         
                                   <button
                                                 className="md:hidden text-[#F0F0F5] cursor-pointer"
                                                 onClick={() => setIsOpen(!isOpen)}
                                               >
                                     {isOpen ? <X size={22} /> : <Menu size={22} />}
-                                  </button>button>
-                        </div>div>
+                                  </button>
+                        </div>
                 
                   {isOpen && (
                       <div className="md:hidden mt-2 bg-[#0A0A0F]/95 backdrop-blur-xl rounded-xl border border-white/[0.08] p-4 shadow-lg">
@@ -108,14 +108,14 @@ function Navigation() {
                                                         className="block w-full text-left py-3 text-[#94A3B8] hover:text-[#3B82F6] transition-colors text-sm cursor-pointer"
                                                       >
                                         {link.label}
-                                      </button>button>
+                                      </button>
                                     ))}
                                   <LiquidGlassButton className="w-full mt-3" size="sm">
                                                 Reserver un appel gratuit
-                                  </LiquidGlassButton>LiquidGlassButton>
-                      </div>div>
+                                  </LiquidGlassButton>
+                      </div>
                         )}
-                </div>div>
-          </nav>nav>
+                </div>
+          </nav>
         );
 }</main>
